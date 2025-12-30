@@ -1,40 +1,58 @@
-# Student Lead Management App (Mini CRM)
+Student Lead Management App
+Hi! This is my app called Student Lead Management App.
+I made this app to keep track of student leads.
 
-A simple React Native app to manage student leads.
+What can you do in this app?
 
-## Features
-- Add student leads
-- List all leads (FlatList)
-- View lead details
-- Delete a lead
-- Navigation between screens (React Navigation)
-- Basic form validation
-- (Optional) Data persistence using AsyncStorage
+Add a student with:
 
-## Tech Stack
-- React Native
-- React Hooks
-- React Navigation
-- AsyncStorage (optional)
+Name
 
-## Installation & Setup
+Email
 
-1. Clone the repo:
-   git clone https://github.com/YOURNAME/student-lead-crm-react-native
+Phone number
 
-2. Install dependencies:
-   npm install
+Course
 
-3. Run the app:
-   npx expo start
-   OR
-   npx react-native run-android
+Status (New, Contacted, Qualified, Lost, Converted)
 
-## Folder Structure
-- components/
-- screens/
-- navigation/
-- utils/
+Notes
 
-## Notes
-- Focused on clean code and usability more than UI design.
+See the list of all students
+View details of a student
+Edit a student lead
+Delete a student lead
+Validation makes sure email and phone number are correct
+Data is saved even if you close the app (AsyncStorage)
+
+
+How to use it (easy steps)
+
+Copy this link:
+git clone https://github.com/Sarthak-theprobro/student-lead-crm-react-native
+
+
+Go inside the folder:
+cd student-lead-crm-react-native
+
+
+Install the app:
+npm install
+
+
+Start the app:
+npx expo start
+
+
+Try it on your phone or simulator:
+
+Add a student
+See them in the list
+Tap to see details
+Edit or delete
+
+Notes from me
+
+This is my first app ever.
+I learned a lot about React Native, hooks, navigation, and storing data.
+I tried my best and it was very fun to make!
